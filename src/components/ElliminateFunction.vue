@@ -1,5 +1,7 @@
 <template>
-    <div class="eliminate-function">
+    <div class="eliminate-function" data-aos="fade-up" data-aos-delay="10" data-aos-duration="500"
+        data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
+        data-aos-anchor-placement="top-center">
         <h2>Eliminate Friction. Connect Channels.</h2>
         <div class="container">
             <div class="flex c-gap-3">

@@ -6,16 +6,16 @@
             </div>
             <ul class="menu__list">
                 <li class="menu__item">
-                    <router-link class="menu__link" to="#">Our Technology</router-link>
+                    <a href="/" class="menu__link" to="#">Our Technology</a>
                 </li>
                 <li class="menu__item">
-                    <router-link class="menu__link" to="#">Applications</router-link>
+                    <a href="/" class="menu__link" to="#">Applications</a>
                 </li>
                 <li class="menu__item">
-                    <router-link class="menu__link" to="#">Clients</router-link>
+                    <a href="/" class="menu__link" to="#">Clients</a>
                 </li>
                 <li class="menu__item">
-                    <router-link class="menu__link" to="#">Try Demo</router-link>
+                    <a href="/" class="menu__link" to="#">Try Demo</a>
                 </li>
                 <li class="menu__item">
                     <a class="menu__link" href="tel:+6177848837">Call or Text: 617-784-8837</a>
