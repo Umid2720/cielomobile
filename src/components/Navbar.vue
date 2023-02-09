@@ -48,7 +48,7 @@ export default {
     column-gap: 30px;
 }
 
-.menu__item{
+.menu__item {
     padding-top: 15px;
     padding-bottom: 15px;
 }
