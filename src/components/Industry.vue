@@ -9,11 +9,12 @@ const boxes = ref([
 </script>
 
 <template>
-    <div class="industry" data-aos="fade-up" data-aos-delay="10" data-aos-duration="500" data-aos-easing="ease-in-out"
-        data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top-center">
-        <h2>Industry Insights</h2>
+    <div class="industry">
+        <h2 data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-once="true"
+            data-aos-anchor-placement="top-center">Industry Insights</h2>
         <div class="container">
-            <div class="flex">
+            <div class="flex" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                data-aos-once="true" data-aos-anchor-placement="top-center">
                 <div class="industry__box" v-for="(box, ind) in boxes" :key="ind">
                     <img :src="'src/assets/industry' + ++ind + '.jpg'" alt="industry">
                     <h4 class="industry__title">{{ box.title }}</h4>
@@ -23,7 +24,8 @@ const boxes = ref([
             </div>
         </div>
         <div class="center">
-            <a href="" class="industry__btn">More Industry Insights</a>
+            <a href="" class="industry__btn" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out"
+                data-aos-once="true" data-aos-anchor-placement="top-center">More Industry Insights</a>
         </div>
     </div>
 </template>

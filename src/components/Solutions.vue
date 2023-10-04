@@ -1,11 +1,14 @@
 <template>
     <div class="solutions" data-aos="fade-up" data-aos-delay="10" data-aos-duration="500" data-aos-easing="ease-in-out"
         data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top-center">
-        <h2>Solutions & Applications</h2>
+        <h2 data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-once="true"
+            data-aos-anchor-placement="top-center">Solutions & Applications</h2>
         <div class="container">
             <div class="flex">
                 <div class="solutions__image">
-                    <img src="../assets/cielocall.png" alt="cielocall" width="540">
+                    <img src="../assets/cielocall.png" alt="cielocall" width="540" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true"
+                        data-aos-anchor-placement="top-center">
                 </div>
                 <div>
                     <h4>Better Conversations transform contact centers into profit centers.</h4>
